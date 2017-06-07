@@ -965,8 +965,10 @@ class Repudiation(BaseModel):
     execution_date = DateField(api_name='ExecutionDate')
     result_code = CharField(api_name='ResultCode')
     result_message = CharField(api_name='ResultMessage')
-
     creation_date = DateTimeField(api_name='CreationDate')
+    initial_transaction_id = CharField(api_name='InitialTransactionId')
+    initial_transaction_type = CharField(api_name='InitialTransactionType', choices=constants.TRANSACTION_TYPE_CHOICES,
+                                         default=None)
 
     class Meta:
         verbose_name = 'repudiation'
