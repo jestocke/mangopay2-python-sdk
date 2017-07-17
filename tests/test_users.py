@@ -575,7 +575,7 @@ class UsersTest(BaseTest):
                 'body': {
                     "Id": "1169434",
                     "Tag": "DefaultTag",
-                    "CreationDate": "2015-05-15",
+                    "CreationDate": today_timestamp,
                     "AuthorId": "1167495",
                     "CreditedUserId": "1167502",
                     "DebitedFunds": {
@@ -608,7 +608,7 @@ class UsersTest(BaseTest):
                     {
                         "Id": "1174837",
                         "Tag": "my transfer",
-                        "CreationDate": "2015-05-15",
+                        "CreationDate": today_timestamp,
                         "AuthorId": "1167495",
                         "CreditedUserId": "1167502",
                         "DebitedFunds": {

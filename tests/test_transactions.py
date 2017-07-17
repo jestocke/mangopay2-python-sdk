@@ -25,7 +25,7 @@ class TransactionsTest(BaseTest):
                 'body': {
                     "Id": "1169434",
                     "Tag": "DefaultTag",
-                    "CreationDate": "2015-05-15",
+                    "CreationDate": 1385638751,
                     "AuthorId": "1167495",
                     "CreditedUserId": "1167502",
                     "DebitedFunds": {
@@ -74,7 +74,7 @@ class TransactionsTest(BaseTest):
                         "Status": "CREATED",
                         "ResultCode": "000000",
                         "ResultMessage": "Success",
-                        "ExecutionDate": "2015-05-15",
+                        "ExecutionDate": 1385638752,
                         "Type": "TRANSFER",
                         "Nature": "REFUND",
                         "DebitedWalletId": "1174774"
@@ -106,7 +106,7 @@ class TransactionsTest(BaseTest):
                         "Status": "CREATED",
                         "ResultCode": "000000",
                         "ResultMessage": "Success",
-                        "ExecutionDate": "2015-05-15",
+                        "ExecutionDate": 1385638752,
                         "Type": "TRANSFER",
                         "Nature": "REFUND",
                         "DebitedWalletId": "1174774"
@@ -138,7 +138,7 @@ class TransactionsTest(BaseTest):
                         "Status": "FAILED",
                         "ResultCode": "000000",
                         "ResultMessage": "Success",
-                        "ExecutionDate": "2015-05-15",
+                        "ExecutionDate": 1385638752,
                         "Type": "TRANSFER",
                         "Nature": "REFUND",
                         "DebitedWalletId": "1174774"
