@@ -357,8 +357,8 @@ class RefundReasonField(Field):
 
         if isinstance(value, Reason):
             value = {
-                'RefusedReasonType': value.type,
-                'RefusedReasonMessage': str(value.message)
+                'RefundReasonType': value.type,
+                'RefundReasonMessage': str(value.message)
             }
 
         return value
