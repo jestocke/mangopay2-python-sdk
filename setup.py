@@ -8,7 +8,7 @@ with open(path.join(here, 'DESCRIPTION.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='mangopaysdk',
+    name='jestocke-mangopaysdk',
     version='3.1.1',
     description='A client library written in python to work with mangopay v2 api',
     long_description='This SDK is a client library for interacting with the Mangopay API.',
